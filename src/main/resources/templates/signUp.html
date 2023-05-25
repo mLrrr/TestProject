@@ -10,12 +10,12 @@
         <a class="navbar-brand" ="@{/index.html}">
             <img src=""   alt="" />
         </a>
-        <a  th:="@{/index.html}">Home</a>
-        <a th:ref="#news">About us</a>
-        <a th:ref="#">Booking</a>
+        <a  th:="@{/}">Home</a>
+        <a th:ref="@{/}">About us</a>
+        <a th:ref="@{/}"></a>Booking</a>
         <div class="topnav-right">
             <a th:="@{/login}">Login</a>
-            <a class="active" th:="@{/signUp}">Sign Up</a>
+            <a class="active" th:href="@{/signUp}">Sign Up</a>
         </div>
       </div>
     <center> <h1> Create new account </h1> </center>   
