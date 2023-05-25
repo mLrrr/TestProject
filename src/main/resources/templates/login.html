@@ -3,19 +3,19 @@
 <head>  
 <meta name="viewport" content="width=device-width, initial-scale=1">  
 <title> Login Page </title>  
-<link rel="stylesheet" th:href="@{/index.css}">
+<link rel="stylesheet" th:href="@{/css/index.css}">
 </head>    
 <body>    
     <div class="topnav">
         <a class="navbar-brand" href="index.html">
             <img src=""   alt="" />
         </a>
-        <a  href="index.html">Home</a>
+        <a  href="@{/index.html}">Home</a>
         <a href="#news">About us</a>
         <a href="#contact">Booking</a>
         <div class="topnav-right">
-            <a class="active" href="login.html">Login</a>
-            <a  href="signUp.html">Sign Up</a>
+            <a class="active" href="@{/login.html}">Login</a>
+            <a  href="@{/signUp.html}">Sign Up</a>
         </div>
       </div>
     <center> <h1> Log in </h1> </center>   
